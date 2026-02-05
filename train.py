@@ -111,7 +111,6 @@ def train(
             "loss": 0,
             "policy_loss": 0,
             "value_loss": 0,
-            "buffer_size": len(replay_buffer),
         }
 
         history, board_video, steps = selfplay(model)
@@ -144,6 +143,7 @@ def train(
         metrics["value_loss"] /= args.train_steps
         metrics["selfplay"] = wandb.Video(board_video, fps=1, format="gif")
         metrics["steps"] = steps
+        metrics["buffer_size"] = len(replay_buffer)
         run.log(data=metrics)
 
         checkpoint.save(args.resume_path, e, run.id, model, optimizer, replay_buffer)
