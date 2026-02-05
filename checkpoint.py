@@ -28,7 +28,6 @@ def save(
         "rng_states": {
             "torch": torch.get_rng_state(),
             "cuda": torch.cuda.get_rng_state_all(),
-            "mps": torch.mps.get_rng_state(),
             "numpy": np.random.get_state(),
             "python": random.getstate(),
         },
