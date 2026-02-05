@@ -1,0 +1,97 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="albucore" />
+          <option value="albumentationsx" />
+          <option value="ale-py" />
+          <option value="annotated-types" />
+          <option value="autorom" />
+          <option value="autorom-accept-rom-license" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="cloudpickle" />
+          <option value="contourpy" />
+          <option value="cycler" />
+          <option value="decorator" />
+          <option value="einops" />
+          <option value="farama-notifications" />
+          <option value="filelock" />
+          <option value="fonttools" />
+          <option value="fsspec" />
+          <option value="gitdb" />
+          <option value="gitpython" />
+          <option value="gymnasium" />
+          <option value="idna" />
+          <option value="imageio" />
+          <option value="imageio-ffmpeg" />
+          <option value="importlib-resources" />
+          <option value="jinja2" />
+          <option value="kiwisolver" />
+          <option value="markupsafe" />
+          <option value="matplotlib" />
+          <option value="moviepy" />
+          <option value="mpmath" />
+          <option value="networkx" />
+          <option value="numpy" />
+          <option value="opencv-python-headless" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="pillow" />
+          <option value="platformdirs" />
+          <option value="proglog" />
+          <option value="protobuf" />
+          <option value="pydantic" />
+          <option value="pydantic-core" />
+          <option value="pyparsing" />
+          <option value="python-dateutil" />
+          <option value="python-dotenv" />
+          <option value="pytz" />
+          <option value="pyyaml" />
+          <option value="requests" />
+          <option value="scipy" />
+          <option value="seaborn" />
+          <option value="sentry-sdk" />
+          <option value="setuptools" />
+          <option value="shimmy" />
+          <option value="simsimd" />
+          <option value="six" />
+          <option value="smmap" />
+          <option value="stringzilla" />
+          <option value="sympy" />
+          <option value="torch" />
+          <option value="torchvision" />
+          <option value="tqdm" />
+          <option value="typing-extensions" />
+          <option value="typing-inspection" />
+          <option value="tzdata" />
+          <option value="urllib3" />
+          <option value="vit-pytorch" />
+          <option value="wandb" />
+          <option value="absl-py" />
+          <option value="grpcio" />
+          <option value="gym" />
+          <option value="gym-notices" />
+          <option value="markdown" />
+          <option value="pygame" />
+          <option value="stable-baselines3" />
+          <option value="tensorboard" />
+          <option value="tensorboard-data-server" />
+          <option value="werkzeug" />
+          <option value="opencv-python" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
